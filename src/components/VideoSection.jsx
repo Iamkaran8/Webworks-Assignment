@@ -1,5 +1,5 @@
 import video from '../assets/bg-video.mp4';
-import fallbackImg from '../assets/Fallbackimg.png';
+import fallbackuiImg from '../assets/FallbackImg.png';
 
 export const VideoSection = () => {
   return (
@@ -13,7 +13,7 @@ export const VideoSection = () => {
           muted
           loop
           playsInline
-          poster={fallbackImg}
+          poster={fallbackuiImg}
           className="position-absolute top-0 start-0 w-100 h-100"
           style={{ objectFit: 'cover', zIndex: 0 }}
         >
