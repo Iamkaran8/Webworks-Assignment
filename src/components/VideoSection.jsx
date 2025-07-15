@@ -20,7 +20,7 @@ export const VideoSection = () => {
           <source src={video} type="video/mp4" />
         </video>
 
-        {/* 🔲 Overlay Content */}
+        {/*  Overlay Content */}
         <div className="position-relative text-white z-1">
           <h2 className="fw-bold">Explore Our Digital Services</h2>
           <button className="btn btn-light mt-3">Explore Now</button>
